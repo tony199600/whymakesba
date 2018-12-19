@@ -8,10 +8,10 @@ void c (void);
 //
 void menu(){
      int choice;
-     printf("1\n");
-     printf("2\n");
-     printf("3\n");
-     printf("4\n");
+     printf("1:enter the data\n");
+     printf("2:show the input data\n");
+     printf("3:make the table\n");
+     printf("\n");
      
      printf("input:");
      int ascii,key;
@@ -35,7 +35,7 @@ void menu(){
 //
 void a(){
      system("cls");
-     printf("1");
+
 }
 //
 void b(){
