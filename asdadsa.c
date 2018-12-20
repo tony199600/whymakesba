@@ -35,6 +35,22 @@ void menu(){
 //
 void a(){
      system("cls");
+     char ch;
+       FILE *fp;
+       fp = fopen("sba_data.txt","w");
+       if(fp==NULL){
+                    printf("cannot oper the file!\n");
+                    system("pause");
+                    exit(1);
+                    }
+     printf("your age");
+       ch = getchar();
+       while(ch!='\n'){
+                       fputc(ch,fp);
+                       ch=getchar();
+                       }
+       fclose(fp);
+     
 
 }
 //
